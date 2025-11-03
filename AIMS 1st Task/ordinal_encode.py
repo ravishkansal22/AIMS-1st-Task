@@ -26,4 +26,5 @@ for pref in df['preference']:
         encoded_preference.append(np.nan)
 
 df['encoded_preference'] = encoded_preference
+
 print(df)
